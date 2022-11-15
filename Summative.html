@@ -33,11 +33,11 @@ background: #ddd;
 
 margin-left: 10px;
 margin-top: -20px;
-width: 240px;
+width: 400px;
 height: 400px;
 margin-top: 160px;
 
-animation: geeks 5s infinite;
+/* animation: geeks 5s infinite; */
 }
 
 @keyframes geeks {
@@ -95,8 +95,9 @@ margin-left: 0%;
 }
 .head {
 background: white;
-width: 50%;
-height: 60px;
+margin-bottom: 5px;
+width: 100px;
+height: 120px;
 margin-top: 10px;
 margin-left: auto;
 margin-right: auto;
@@ -109,30 +110,52 @@ height: 200px;
 margin-left: auto;
 margin-right: auto;
 border-radius: 10%;
+display: inline-block;
 }
-.leftLeg {
-    background: black;
+.leftArm {
+    background: rgb(255, 0, 0);
     width: 50px;
     height: 200px;
-    float:left;
+    display: inline-block;
     padding-right: 10px;
     padding-top: 5px;
-    margin-left: 40px;
     border-radius: 10%;
+    margin-left: 40px;
 }
-.rightLeg {
-    background: black;
+.rightArm {
+    background: rgb(6, 185, 87);
     width: 50px;
     height: 200px;
-    float:right;
+    display: inline-block;
     padding-right: 10px;
     padding-top: 5px;
     margin-right: 40px;
     border-radius: 10%;
 }
+.rightLeg {
+    background: rgb(0, 26, 255);
+    width: 50px;
+    height: 200px;
+    float:right;
+    padding-right: 10px;
+    padding-top: 5px;
+    margin-left: 5px;
+    margin-right: 135px;
+    border-radius: 10%;
+}
+.leftLeg {
+    background: rgb(170, 15, 137);
+    width: 50px;
+    height: 200px;
+    float:right;
+    padding-right: 10px;
+    padding-top: 5px;
+    border-radius: 10%;
+    margin-right: 5px;
+}
 </style>
 </head>
-<!------------------------------------------------------------------------------------------------------------------ -->
+<!--------------------------------------------------------------------------------------------------------------------->
 <body>
 <div class="stage">
     <div class="wholebody">
@@ -140,15 +163,23 @@ border-radius: 10%;
 
         </div>
 
+        <div class="leftArm">
+
+        </div>
+
         <div class="body">
 
         </div>
-        
-        <div class="leftLeg">
+
+        <div class="rightArm">
 
         </div>
         
         <div class="rightLeg">
+
+        </div>
+        
+        <div class="leftLeg">
             
         </div>
     </div>
